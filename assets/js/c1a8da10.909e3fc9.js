@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvectorshop_site=self.webpackChunkvectorshop_site||[]).push([[5906],{2477:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/vectorshop-site/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

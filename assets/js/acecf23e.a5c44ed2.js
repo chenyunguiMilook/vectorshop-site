@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvectorshop_site=self.webpackChunkvectorshop_site||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/vectorshop-site/blog","blogTitle":"Blog","authorsListPath":"/vectorshop-site/blog/authors"}')}}]);
