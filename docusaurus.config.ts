@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'VectorShop',
-  tagline: 'VectorShop is a great vector drawing tool',
+  tagline: 'VectorShop is a great vector drawing tool, svg edit tool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
