@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'VectorShop',
-  tagline: 'VectorShop is a great vector drawing tool, svg edit tool',
+  tagline: 'VectorShop is a professional vector design tool built for designers, offering intuitive and powerful features that streamline the creation of stunning vector graphics and icons.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -69,9 +69,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'VectorShop',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'VectorShop Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -83,7 +83,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/chenyunguiMilook/VectorShopIssue',
           label: 'GitHub',
           position: 'right',
         },
@@ -114,7 +114,7 @@ const config: Config = {
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/chenyungui',
             },
           ],
         },
@@ -127,12 +127,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/chenyunguiMilook/VectorShopIssue',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} VectorShop, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
