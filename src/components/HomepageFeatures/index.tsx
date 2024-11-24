@@ -10,17 +10,16 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to Draw',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        VectorShop supports drawing various types of curves and allows you to combine different types of curves in multiple ways to create your desired shapes. This helps you complete your creations in the fastest and most intuitive way.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Optimize for generating SFSymbol',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -30,7 +29,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Easy to Export',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
