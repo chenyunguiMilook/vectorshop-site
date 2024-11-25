@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Draw',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_draw.svg').default,
     description: (
       <>
         VectorShop supports drawing various types of curves and allows you to combine different types of curves in multiple ways to create your desired shapes. This helps you complete your creations in the fastest and most intuitive way.
@@ -20,21 +20,19 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Optimize for generating SFSymbol',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_sfsymbol.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        VectorShop is optimized for generating SFSymbols, allowing you to adjust stroke weight and align baselines seamlessly, boosting efficiency by a hundredfold.
       </>
     ),
   },
   {
     title: 'Easy to Export',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_export.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        VectorShop offers over ten export presets, making exporting your icons incredibly simple. It also supports converting graphics into code, speeding up your development process.
       </>
     ),
   },
