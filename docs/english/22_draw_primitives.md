@@ -2,30 +2,23 @@
 sidebar_position: 22
 ---
 
-# 绘制几何形
+# Drawing Primitives
 
-几何形包括：矩形，圆形，星形，多边形及齿轮。
+Primitives include rectangles, circles, stars, polygons, and gears.
 
-## 绘制
+## Drawing
 
-在画布中点并拖动来绘制相应的几何图形。
+- Click and drag on the canvas to draw a primitive shape.
+- Hold **⇧ Shift** while drawing to enable proportional scaling.
+- Hold **⌥ Option** to draw the shape from its center.
+- Press **␣ Spacebar** to move the shape while drawing.
 
-绘制过程中，按下 "Shift" 键，启用等比约束。
+## Editing
 
-绘制过程中，按下 "Option" 键，几何形从中心点开始绘制。
+After selecting a primitive, draggable control points will appear for adjusting its properties:
 
-绘制过程中，按下 "Spacebar" 可移动绘制形状的位置。
-
-## 编辑
-
-选中绘制的几何形，在其上会出现可拖动控制点，以调节其属性。
-
-矩形：支持控制点调节各圆角半径值。按下 "Option" 键调节，在使该矩形在单独或整体调节圆角半径模式之间切换。
-
-圆形：支持调节圆环内径比例，支持调节扇形开口起始和结束角度。
-
-星形：支持调节星形尖端圆角半径，星形边的数量，以及缩进比例。
-
-多边形：支持调节多边形边的数量及圆角半径。
-
-齿轮：支持调节齿轮边的数量，边的粗细以边的收缩比例。
+- **Rectangle**: Adjust the corner radius for each corner. Hold **⌥ Option** to toggle between individual and unified corner radius adjustment modes.
+- **Circle**: Adjust the inner radius of the ring or modify the start and end angles of a sector.
+- **Star**: Adjust the corner radius of the star tips, the number of edges, and the indentation ratio.
+- **Polygon**: Adjust the number of sides and the corner radius.
+- **Gear**: Adjust the number of teeth, the thickness of the edges, and the shrinkage ratio.
