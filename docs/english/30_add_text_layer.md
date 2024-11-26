@@ -2,20 +2,16 @@
 sidebar_position: 30
 ---
 
-# 添加文字图层
+# Adding Text Layers
 
-## 添加文字
+## Adding Text
 
-点击文字工具，或按下 "T" 键切换到文字工具。
+- Click the text tool icon or press **T** to switch to the text tool.
+- Click on the canvas and type to create an auto-sized text layer.
+- Click and drag on the canvas to create a rectangular text area.
+- Click outside the text area to finish editing the text.
 
-在画布中点击，并输入文字，即可在该位置创建自动大小文字。
+## Editing Text
 
-大画布中点击并拖拽出一个矩形区域，即可创建一个文字区域。
-
-在画布中点击文字之外的区域，即可完成文字编辑。
-
-## 编辑文字
-
-双击文字图层图标， 或者直接在画布中双击文字图层，即可进行文字编辑状态。
-
-选中文字图层， 即可以右侧属性栏中修改文字相关属性。
+- Double-click the text layer icon or double-click the text layer directly on the canvas to enter text editing mode.
+- After selecting a text layer, you can modify its properties in the right-hand properties panel.
