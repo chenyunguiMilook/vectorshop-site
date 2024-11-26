@@ -15,6 +15,7 @@ VectorShop is a professional vector design tool built for designers, offering in
 ## Key Features
 
 ### Toolset
+
 Includes selection tool, pen tool, rounded curve tool, smooth curve tool, geometric shape tools (rectangle, circle, star, polygon, gear), and text tool.
 
 ### Curve Types
