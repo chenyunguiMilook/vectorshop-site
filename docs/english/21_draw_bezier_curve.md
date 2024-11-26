@@ -2,79 +2,71 @@
 sidebar_position: 21
 ---
 
-# 绘制贝塞尔曲线
+# Drawing Bézier Curves
 
-## 绘制曲线
+## Drawing Curves
 
-### 绘制
+### Drawing
 
-点击画布空白处添加锚点，点击并拖动可以修改锚点控制手柄位置。
-在点击拖动的状态下按下 "Spacebar" 可以调整最后添加的锚点的位置。
-在点击拖动的状态下按下 "Option" 键，可以单边调整当前手柄位置，用手绘制拐点。
-在绘制过程中，鼠标滑过起始锚点的时候，鼠标光标会变为关闭曲线样式，点击结束封闭曲线绘制。绘制过程中直接按下 "Return" 键，结束绘制开放曲线。
-在绘制过程中，鼠标滑过中间锚点，鼠标光标会变为删除锚点样式，点击可删除该锚点。
+- Click on an empty area of the canvas to add an anchor point. Click and drag to adjust the control handle of the anchor point.
+- While dragging the handle, press **␣ Spacebar** to reposition the most recently added anchor point.
+- While dragging the handle, press **⌥ Option** to adjust only one side of the handle, allowing for the creation of corner points.
+- During drawing, hovering the mouse over the starting anchor point changes the cursor to indicate curve closure. Click to close the curve and end the drawing. Press **⏎ Return** to finish drawing an open curve.
+- Hovering over a middle anchor point changes the cursor to indicate anchor point deletion. Click to remove the anchor point.
 
-## 编辑曲线
+## Editing Curves
 
-在画布中双击图像（或双击图层列表的图标）可进入形状编辑模式，在形状编辑模式下，可以对曲线进行整体的编辑，如复制，删除，镜向，排序，修改形状模式等操作。再次双击曲线，则可进入锚点编辑模式，在锚点编辑模式下，可以对锚点进行选择，移动，旋转，缩放，添加，删除，镜向等操作。
+Double-click a shape on the canvas (or the corresponding icon in the layer list) to enter shape editing mode. In this mode, you can perform overall operations, such as copying, deleting, mirroring, sorting, and modifying the shape mode. Double-click the curve again to enter anchor editing mode for more detailed adjustments.
 
-### 选择锚点
+### Selecting Anchor Points
 
-点击锚点，即可选中该锚点。
+- Click on an anchor point to select it.
+- Drag a selection box to select all anchor points within the area. Hold **⇧ Shift** while dragging to add anchor points to the selection.
 
-在画布中框选，即可选中框选区域内的锚点。按下 "Shift" 框选锚点，可加选该区域的锚点。
+### Selecting Curve Segments
 
-### 选择曲线段
+- Click on a curve segment to activate it.
+- Drag a selection box around a curve segment (without selecting anchor points) to activate it.
 
-鼠标点击曲线段，可激话该曲线段。
+### Moving Anchor Points
 
-框选曲线（不框选到任何锚点），即可激活该曲线段。
+- Click and drag an unselected anchor point to move it directly.
+- Click and drag a selected anchor point to move all selected anchor points simultaneously.
 
-### 移动锚点
+### Adjusting Curvature
 
-点击未选中的锚点并拖动，可直接拖动该锚点。
+- Select anchor points or curve segments to activate their handles. Drag the handles to adjust the curve's curvature.
+- Press **⌥ Option** while dragging a handle to adjust only one side, creating a corner point.
+- Drag directly on the curve segment to adjust its overall curvature.
 
-点击已选中的锚点并拖动，可直接拖动所有已选中的锚点。
+### Adding Anchor Points
 
-### 调整曲率
+- In anchor editing mode, hold **⌘ Command** to show the position of the new anchor point. Click to add the anchor point, or click and drag to add and move it simultaneously.
 
-选中锚点或曲线段之后，与之相关的手柄即可被激活。点击并拖动即可调整该曲线曲率。按下 "Option" 键拖动，即可单边调整当前手柄位置。用于调整形成拐点。
-直接点击曲线段并拖动，可直接调整该曲线段的曲率。
+### Deleting Anchor Points
 
-### 添加锚点
+- Select anchor points and press **⌫ Delete** to remove them.
+- If the selected points are continuous, press **X** to merge them into a single vertex.
 
-在锚点编辑模式下， 按下 "Command" 键，视图中会出现锚点将要添加的位置，点击鼠标左键，即可在该位置添加锚点。点击并拖动，即可添加并移动该锚点。
+### Converting Anchor Point Types
 
-### 删除锚点
+- Press **C** to convert the selected anchor points to smooth points.
+- Press **V** to convert the selected anchor points to corner points.
 
-选中锚点，按下 "Delete" 键，即可删除选中的锚点。
+### Precisely Setting Anchor Point Positions
 
-如果选中的锚点为连续锚点，按下 "X" 键，即可将选中锚点合并为一个顶点。
+- Select an anchor point and use the anchor point list on the left to input coordinates for precise adjustments.
+- Drag over multiple input fields in the list to modify the positions of multiple anchor points simultaneously.
 
-### 将锚点转换为光滑锚点
+### Extruding Arcs
 
-选中锚点，按下 "C" 键，即可光滑所选中的锚点。
+- In anchor editing mode, hold **⌥ Option** to activate the nearest curve edge. Drag the mouse to extrude an arc from that position.
 
-### 将锚点转换为角点
+### Opening/Closing Curves
 
-选中锚点，按下 "V" 键，即可锐化所选中的锚点。
+- For closed curves: Select two consecutive anchor points, right-click, and choose "Open Curve" to open the curve.
+- For open curves: Right-click and choose "Close Curve" to close it.
 
-### 精确设置锚点位置
+### Setting the Curve Starting Point
 
-选中锚点，在左侧锚点列表中可直接输入锚点的坐标信息对锚点位置进行精确修改。
-
-在列表中点击并拖动，一次滑过多个输入框，可单次修改多个锚点的位置。
-
-### 挤压圆弧
-
-在锚点编辑模式下，按下 "Option" 键，视图中会激活最近的边。点击鼠标并拖动，即可挤压出圆弧。
-
-### 开放/关闭曲线
-
-如果当前为封闭曲线，选中两个连续锚点，在画布中右键，点击 "Open Curve" 菜单即可开放曲线。
-
-如果当前为开放曲线，在画布中点击右键，点击 "Close Curve" 菜单即可关闭曲线。
-
-### 重设曲线开始节点
-
-选择任意锚点，在画布中点击右键，点击 "Set as starting point" 菜单即可将开锚点设置为曲线开始节点。
+- Select any anchor point, right-click, and choose "Set as starting point" to set it as the starting point of the curve.
