@@ -2,8 +2,13 @@
 sidebar_position: 40
 ---
 
-# 添加图像图层
+# Adding Image Layers
 
-## 添加
+## Adding
 
-拖拽图片到画布中添加图片层。
+- Drag and drop an image onto the canvas to add it as an image layer.
+
+## Editing
+
+- After selecting the image layer, you can adjust the **Image Scale** property in the properties editor on the right.
+  - For example: If the imported screenshot is a 2x image, you can set the image scale to **50%** for better reference purposes.
