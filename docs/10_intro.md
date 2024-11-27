@@ -8,7 +8,7 @@ VectorShop is a professional vector design tool built for designers, offering in
 
 ## Basic Concepts
 
-- *Curve*: *A single path that can be either closed or open. Rounded and smooth curves are anchor-based curves.**
+- *Curve*: *A single path that can be either closed or open. Rounded and smooth curves are anchor-based curves.*
 - *Shape*: *Composed of multiple curves, ideal for creating complex graphics.*
 - *Layer*: *Includes different layer types such as shapes, bitmap images, and text.*
 
