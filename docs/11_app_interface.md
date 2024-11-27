@@ -2,6 +2,6 @@
 sidebar_position: 11
 ---
 
-App Interface
+# App Interface
 
 ![app interface](./img/UserInterface.png)
