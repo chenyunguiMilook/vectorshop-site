@@ -4,7 +4,8 @@ sidebar_position: 61
 
 # Copying Code
 
-Supports copying code for shape layers and text layers, with options to adjust the precision of floating-point values in the code.
+Supports copying code for shape layers and text layers, with options to adjust the precision of floating-point values in the code.  
+Right-click on the layer and select the **"Copy Code..."** menu to open the code export panel.
 
 ## Shape Layer Code
 
@@ -29,4 +30,3 @@ Text layers support copying three types of code:
     - Supports solid colors, linear gradients, radial gradients, and angular gradients for fills.
 3. **SwiftUI Font**:
     - Supports system or custom fonts and special font styles.
-
