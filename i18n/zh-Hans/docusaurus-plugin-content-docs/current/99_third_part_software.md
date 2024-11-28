@@ -2,8 +2,6 @@
 sidebar_position: 99
 ---
 
-# Third-Party Libraries License Acknowledgment
-
 # 第三方库许可声明
 
 本应用程序使用以下开源库，我们承认并遵守其各自的许可协议：
