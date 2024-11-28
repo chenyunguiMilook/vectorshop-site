@@ -313,5 +313,9 @@
   "VectorShop Tutorial - 5min ⏱️": {
     "message": "VectorShop 5分钟教学",
     "description": "index page button title"
+  },
+  "homepage.tagline": {
+    "message": "VectorShop 是一款专业矢量绘图工具，专为设计师提供直观而强大的功能，助力高效创作精美的矢量图形和图标。",
+    "description": "index page tagline"
   }
 }

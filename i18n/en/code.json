@@ -309,5 +309,13 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "homepage.tagline": {
+    "message": "VectorShop is a professional vector design tool built for designers, offering intuitive and powerful features that streamline the creation of stunning vector graphics and icons.",
+    "description": "index page tagline"
+  },
+  "VectorShop Tutorial - 5min ⏱️": {
+    "message": "VectorShop Tutorial - 5min ⏱️",
+    "description": "index page button title"
   }
 }
