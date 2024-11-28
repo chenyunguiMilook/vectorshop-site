@@ -309,5 +309,9 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "VectorShop Tutorial - 5min ⏱️": {
+    "message": "VectorShop 5分钟教学",
+    "description": "index page button title"
   }
 }
