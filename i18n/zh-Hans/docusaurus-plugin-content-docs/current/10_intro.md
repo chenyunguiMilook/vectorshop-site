@@ -2,59 +2,61 @@
 sidebar_position: 10
 ---
 
-# VectorShop Intro
+# VectorShop介绍
 
-VectorShop is a professional vector design tool built for designers, offering intuitive and powerful features that streamline the creation of stunning vector graphics and icons.
+# VectorShop介绍
 
-## Basic Concepts
+VectorShop 是一款专业矢量绘图工具，专为设计师提供直观而强大的功能，助力高效创作精美的矢量图形和图标。
 
-- *Curve*: *A single path that can be either closed or open. Rounded and smooth curves are anchor-based curves.**
-- *Shape*: *Composed of multiple curves, ideal for creating complex graphics.*
-- *Layer*: *Includes different layer types such as shapes, bitmap images, and text.*
+## 基础概念
 
-## Key Features
+- **曲线**：单一路径，支持封闭或开放。圆角曲线和光滑曲线属于锚点曲线。
+- **形状**：由多条曲线组成，适合设计复杂图形。
+- **图层**：包括形状、位图和文字等图层类型。
 
-### Toolset
+## 主要功能
 
-Includes selection tool, pen tool, rounded curve tool, smooth curve tool, geometric shape tools (rectangle, circle, star, polygon, gear), and text tool.
+### 工具集
 
-### Curve Types
+- 包括选择工具、钢笔工具、圆角曲线工具、光滑曲线工具和几何形工具（矩形、圆形、星形、多边形、齿轮）以及文字工具。
 
-- **Bezier Curve**: Supports standard curve control, compatible with other vector software formats.
-- **Rounded Corner Curve**: Allows adjusting corner radius on anchor points, ideal for creating smooth polygons.
-- **Smooth Curve**: A Spline curve that enables smooth shapes and can convert each anchor point to a sharp corner.
-- **Geometric Shapes**: Rectangle, circle, star, polygon, and gear, with customizable parameters to quickly create basic shapes.
+### 曲线类型
 
-### Anchor Curve Editing
+1. **Bezier 曲线**：支持标准的曲线控制，兼容其他矢量软件格式。
+2. **圆角曲线**：支持锚点圆角调整，适用于创建圆滑的多边形形状。
+3. **光滑曲线**：平滑的 Spline 曲线，便于生成流畅的形状。
+4. **几何图形**：矩形、圆形、星形、多边形和齿轮，各有丰富参数可调，方便生成各种基本形状。
 
-- **Shortcut Keys**: Use C for smoothing, V for sharp corners, and X to merge anchors. These shortcuts are easy to remember as their shapes resemble the functions.
-- **Snapping Logic**: Long-press C to snap to curves, V to snap to anchors, and X to snap to the grid. Shortcut letters resemble snapping targets, aiding memorization.
-- **Local Editing**: Supports precise coordinate entry, edge extrusion, arc extrusion, and adding points with Command key.
-- **Global Editing**: Includes horizontal, vertical, and rotational mirroring, curve offset, and matrix duplication via the context menu.
-- **Precision Adjustment**: Move, rotate, and scale anchor points with precise input and customizable transformation centers.
+### 锚点曲线编辑
 
-### Shape Editing
+- **快捷键操作**：`C` 键光滑、`V` 键锐角、`X` 键合并锚点。快捷键字母的形状与其功能相似，易于记忆和使用。
+- **吸附逻辑**：长按 `C` 吸附曲线、`V` 吸附锚点、`X` 吸附网格。快捷键字母的形状与吸附目标相似，便于记忆和操作。
+- **局部编辑**：支持输入精确坐标，边挤压、圆弧挤压，按住 **⌘ Command** 键进入加点模式等。
+- **整体编辑**：支持水平、垂直及旋转镜像、曲线偏移，右键菜单支持矩阵复制等。
+- **精确调整**：移动、旋转和缩放锚点，支持精确输入调整，变换中心可自定义设置。
 
-- **Shape Composition**: Offers NonZero, Winding, Boolean, and SFSymbol rendering modes for combining shapes.
-- **SFSymbol Creation**: Adjust stroke thickness and alignment with guide lines, then export as Apple-standard SFSymbols.
-- **Fill Styles**: Supports 6 fill types—system colors, solid color, linear gradient, radial gradient, angular gradient, and image fill—with multiple overlay effects.
-- **Stroke Properties**: Adjust thickness, position, join style (bevel, round, miter), and cap style (butt, round, square) to suit various design needs.
+### 形状编辑
 
-### Text Functionality
+- **形状组合方式**：提供 NonZero、Winding、Boolean 和 SFSymbol 渲染模式。
+- **SFSymbol 制作**：调整描边粗细、对齐指导线，一键导出符合 Apple 标准的图标。
+- **填充样式**：系统颜色、单色、线性渐变、径向渐变、角度渐变、图片填充，6 种填充方式，支持多个填充叠加效果。
+- **描边属性**：支持调节粗细、位置，连接样式（斜接、圆角、斜角）和端点样式（平头、圆头、方头），满足不同的设计需求。
 
-- Modify font, style, size (including system presets), alignment, size adjustment mode, line height, character spacing, and paragraph spacing.
-- Supports importing and using custom fonts.
-- Allows converting text layers into shape layers.
+### 文字功能
 
-### Layer Effects
+- 支持修改字体、样式、字号（可选择系统预设字号）、对齐样式、大小调整模式、行高、字间距和行间距等。
+- 支持导入并使用自定义字体。
+- 支持将文字图层转换为形状图层。
 
-- **Drop Shadow**: Adjust color, distance, blur, and angle.
-- **Inner Shadow**: Adjust color, distance, blur, and angle.
+### 图层特效
 
-### Import and Export
+- **投影效果**：支持调节颜色、距离、模糊和投影角度。
+- **内阴影效果**：支持调节颜色、距离、模糊和投影角度。
 
-- **Import Formats**: SVG, PNG, JPEG, and other image formats.
-- **Image Export**: Options include cropping, border, fixed size, fixed ratio, and templates for iOS/Mac/Android app icons.
-- **Code Export**: Export code compatible with SwiftUI, CAShapeLayer, and CGContext.
+### 导入导出
 
-VectorShop combines robust functionality with user-friendly operation, making it an ideal choice for hobbyists, designers, and developers to efficiently create and develop vector graphics.
+- **导入格式**：SVG、PNG、JPEG 等图片格式。
+- **图片导出**：支持裁切、边框、固定大小、固定比例及 iOS/Mac/Android 应用图标等预设模板。
+- **代码导出**：导出适用于 SwiftUI、CAShapeLayer 和 CGContext 的代码。
+
+VectorShop 集多功能与简便操作于一体，是业余爱好者、设计师和开发者高效创作和开发的理想选择。

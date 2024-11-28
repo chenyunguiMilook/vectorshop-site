@@ -4,15 +4,18 @@ sidebar_position: 99
 
 # Third-Party Libraries License Acknowledgment
 
-This application uses the following open-source libraries. We acknowledge and comply with their respective license agreements:
+# 第三方库许可声明
+
+本应用程序使用以下开源库，我们承认并遵守其各自的许可协议：
 
 ---
 
 ## [SnapKit](https://github.com/SnapKit/SnapKit)
 
-- **Author**: SnapKit Team  
-- **License**: MIT License  
-- **Statement**:  
+- **作者**: SnapKit 团队  
+- **许可证**: MIT 许可证  
+- **声明**:  
+
   ```
   Copyright (c) SnapKit Team
 
@@ -39,9 +42,10 @@ This application uses the following open-source libraries. We acknowledge and co
 
 ## [Highlightr](https://github.com/raspu/Highlightr)
 
-- **Author**: Raspu  
-- **License**: MIT License  
-- **Statement**:  
+- **作者**: Raspu  
+- **许可证**: MIT 许可证  
+- **声明**:  
+
   ```
   Copyright (c) Raspu
 
@@ -68,9 +72,10 @@ This application uses the following open-source libraries. We acknowledge and co
 
 ## [libtess2](https://github.com/memononen/libtess2)
 
-- **Author**: Mikko Mononen  
-- **License**: SGI Free Software License B  
-- **Statement**:  
+- **作者**: Mikko Mononen  
+- **许可证**: SGI 免费软件许可证 B  
+- **声明**:  
+
   ```
   Copyright (C) 2011-2012 Mikko Mononen
 
@@ -83,13 +88,15 @@ This application uses the following open-source libraries. We acknowledge and co
   The software is provided "as is" without express or implied warranty.
   ```
 
+
 ---
 
 ## [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
 
-- **Author**: Nick Lockwood  
-- **License**: MIT License  
-- **Statement**:  
+- **作者**: Nick Lockwood  
+- **许可证**: MIT 许可证  
+- **声明**:  
+
   ```
   Copyright (c) Nick Lockwood
 
@@ -116,9 +123,10 @@ This application uses the following open-source libraries. We acknowledge and co
 
 ## [SVGView](https://github.com/exyte/SVGView)
 
-- **Author**: Exyte  
-- **License**: MIT License  
-- **Statement**:  
+- **作者**: Exyte  
+- **许可证**: MIT 许可证  
+- **声明**:  
+
   ```
   Copyright (c) 2020 Exyte
 
@@ -145,9 +153,10 @@ This application uses the following open-source libraries. We acknowledge and co
 
 ## [Swift Collections](https://github.com/apple/swift-collections)
 
-- **Author**: Apple Inc.  
-- **License**: Apache License 2.0  
-- **Statement**:  
+- **作者**: Apple Inc.  
+- **许可证**: Apache 许可证 2.0  
+- **声明**:  
+
   ```
   Copyright 2020-2024 Apple Inc. and the Swift project authors.
 
