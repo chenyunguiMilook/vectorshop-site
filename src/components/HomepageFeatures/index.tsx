@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: string;
@@ -13,27 +14,27 @@ const FeatureList: FeatureItem[] = [
     title: 'Easy to Draw',
     Svg: require('@site/static/img/undraw_draw.svg').default,
     description: (
-      <>
-        VectorShop supports drawing various types of curves and allows you to combine different types of curves in multiple ways to create your desired shapes. This helps you complete your creations in the fastest and most intuitive way.
-      </>
+      <Translate>
+      draw.description
+      </Translate>
     ),
   },
   {
     title: 'Optimize for generating SFSymbol',
     Svg: require('@site/static/img/undraw_sfsymbol.svg').default,
     description: (
-      <>
-        VectorShop is optimized for generating SFSymbols, allowing you to adjust stroke weight and align baselines seamlessly, boosting efficiency by a hundredfold.
-      </>
+      <Translate>
+      sfsymbol.description
+      </Translate>
     ),
   },
   {
     title: 'Easy to Export',
     Svg: require('@site/static/img/undraw_export.svg').default,
     description: (
-      <>
-        VectorShop offers over ten export presets, making exporting your icons incredibly simple. It also supports converting graphics into code, speeding up your development process.
-      </>
+      <Translate>
+      export.description
+      </Translate>
     ),
   },
 ];

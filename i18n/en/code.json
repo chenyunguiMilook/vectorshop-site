@@ -317,5 +317,14 @@
   "VectorShop Tutorial - 5min ⏱️": {
     "message": "VectorShop Tutorial - 5min ⏱️",
     "description": "index page button title"
+  },
+  "draw.description": {
+    "message": "VectorShop supports drawing various types of curves and allows you to combine different types of curves in multiple ways to create your desired shapes. This helps you complete your creations in the fastest and most intuitive way."
+  },
+  "sfsymbol.description": {
+    "message": "VectorShop is optimized for generating SFSymbols, allowing you to adjust stroke weight and align baselines seamlessly, boosting efficiency by a hundredfold."
+  },
+  "export.description": {
+    "message": "VectorShop offers over ten export presets, making exporting your icons incredibly simple. It also supports converting graphics into code, speeding up your development process."
   }
 }

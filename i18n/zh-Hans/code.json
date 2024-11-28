@@ -317,5 +317,14 @@
   "homepage.tagline": {
     "message": "VectorShop 是一款专业矢量绘图工具，专为设计师提供直观而强大的功能，助力高效创作精美的矢量图形和图标。",
     "description": "index page tagline"
+  },
+  "draw.description": {
+    "message": "VectorShop支持多种曲线的绘制，并且可以将不同类型的曲线以多种方式组合成你想要的图形。让你用最快速、最直观的方式完成创作。"
+  },
+  "sfsymbol.description": {
+    "message": "VectorShop专为生成SFSymbol而优化，粗细调节、基线对齐一气呵成，效率提升百倍。"
+  },
+  "export.description": {
+    "message": "VectorShop提供了十多种导出预设，让你的图标导出工作变得异常简单。同时还支持将图形转换为代码，加快你的开发进度。"
   }
 }
