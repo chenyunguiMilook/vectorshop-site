@@ -29,7 +29,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'cn'],
+    locales: ['en', 'zh-Hans'],
     path: 'i18n',
     localeConfigs: {
       en: {
@@ -39,10 +39,9 @@ const config: Config = {
         calendar: 'gregory',
         path: 'en',
       },
-      cn: {
+      'zh-Hans': {
         label: '简体中文',
         direction: 'ltr',
-        htmlLang: 'zh-Hans',
         path: 'zh-Hans',
       },
     },
