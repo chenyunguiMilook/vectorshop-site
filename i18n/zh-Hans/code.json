@@ -326,5 +326,14 @@
   },
   "export.description": {
     "message": "VectorShop提供了十多种导出预设，让你的图标导出工作变得异常简单。同时还支持将图形转换为代码，加快你的开发进度。"
+  },
+  "draw.title": {
+    "message": "简单强大的绘制能力"
+  },
+  "symbol.title": {
+    "message": "专为SFSymbol生成优化"
+  },
+  "export.title": {
+    "message": "方便快速的导出能力"
   }
 }

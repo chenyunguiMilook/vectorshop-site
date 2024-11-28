@@ -4,14 +4,16 @@ import styles from './styles.module.css';
 import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Draw',
+    title: (
+      <Translate>draw.title</Translate>
+    ),
     Svg: require('@site/static/img/undraw_draw.svg').default,
     description: (
       <Translate>
@@ -20,7 +22,9 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Optimize for generating SFSymbol',
+    title: (
+      <Translate>symbol.title</Translate>
+    ),
     Svg: require('@site/static/img/undraw_sfsymbol.svg').default,
     description: (
       <Translate>
@@ -29,7 +33,9 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Easy to Export',
+    title: (
+      <Translate>export.title</Translate>
+    ),
     Svg: require('@site/static/img/undraw_export.svg').default,
     description: (
       <Translate>

@@ -326,5 +326,14 @@
   },
   "export.description": {
     "message": "VectorShop offers over ten export presets, making exporting your icons incredibly simple. It also supports converting graphics into code, speeding up your development process."
+  },
+  "draw.title": {
+    "message": "Easy to Draw"
+  },
+  "symbol.title": {
+    "message": "Optimize for generating SFSymbol"
+  },
+  "export.title": {
+    "message": "Easy to export"
   }
 }
