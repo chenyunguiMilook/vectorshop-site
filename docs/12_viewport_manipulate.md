@@ -10,7 +10,7 @@ sidebar_position: 12
 - Press "⌘" + "0️⃣" to reset the zoom level to fit the canvas.
 - Press "⌘" + "➕" to zoom in.
 - Press "⌘" + "➖" to zoom out.
-- When an object is selected, press "F️⃣" to zoom in on the selected area.
+- When an object is selected, press "F️" to zoom to fit the selected area.
 - Click the zoom control in the top-right corner of the title bar to select a specific zoom ratio from the dropdown menu.
 
 ## Moving the Viewport
