@@ -10,8 +10,8 @@ sidebar_position: 20
 
 ### 绘制
 
-- [<img src="./img/tool_round_anchor_tool.png" width="28"/>](anchor) 工具用于绘制圆角锚点曲线。
-- [<img src="./img/tool_smooth_anchor_tool.png" width="28"/>](smooth) 工具用于绘制光滑锚点曲线。
+- ![alt text](./img/tool_round_anchor_tool.png "anchor"){width=28px} 工具用于绘制圆角锚点曲线。
+- ![alt text](./img/tool_smooth_anchor_tool.png "smooth"){width=28px} 工具用于绘制圆角锚点曲线。
 - 在绘制光滑曲线的过程中，锚点默认设置为光滑点。按下 ⌘ 键可切换为角点，鼠标光标会显示相应提示。
 - 当鼠标光标点击曲线的第一个锚点时，曲线将自动闭合并结束当前绘制过程。按下 ⏎ 键也可结束当前绘制。
 
