@@ -10,12 +10,16 @@ sidebar_position: 20
 
 ### 绘制
 
-- ![anchor](./img/tool_round_anchor_tool.png) 工具用于绘制圆角锚点曲线。
-- ![smooth](./img/tool_smooth_anchor_tool.png) 工具用于绘制圆角锚点曲线。
+![draw_anchor](./img/anchorCurve/draw_anchor.gif)
+
+![draw_anchor](./img/anchorCurve/draw_smooth.gif)
+
 - 在绘制光滑曲线的过程中，锚点默认设置为光滑点。按下 ⌘ 键可切换为角点，鼠标光标会显示相应提示。
 - 当鼠标光标点击曲线的第一个锚点时，曲线将自动闭合并结束当前绘制过程。按下 ⏎ 键也可结束当前绘制。
 
 ### 智能吸附
+
+![smart_snap](./img/anchorCurve/smart_snap.gif)
 
 切换至锚点曲线绘制工具时，如果光标显示为红色，表示智能吸附功能已开启。按下 ⌥ 键可启用或禁用智能吸附功能。
 
@@ -28,6 +32,7 @@ sidebar_position: 20
 ### 强制吸附
 
 使用锚点曲线绘制工具时，可通过以下快捷键启用强制吸附：
+
 - 长按 **C** 键：启用曲线吸附。
 - 长按 **V** 键：启用顶点吸附。
 - 长按 **X** 键：启用网格吸附。
@@ -38,7 +43,11 @@ sidebar_position: 20
 
 再次双击曲线即可进入锚点编辑模式。在锚点编辑模式下，可以选择、移动、旋转、缩放、添加、删除、镜向锚点等。
 
+
+
 ### 选择锚点
+
+![choose_anchor](./img/anchorCurve/choose_anchor.gif)
 
 - 单击锚点可选中该锚点。
 - 按住 ⇧ 键并单击锚点，可加选锚点。
@@ -46,6 +55,8 @@ sidebar_position: 20
 - 若框选边界而不选择具体锚点，将选中该曲线的所有锚点。
 
 ### 移动锚点
+
+![move_anchor](./img/anchorCurve/move_anchor.gif)
 
 - 选中锚点后，按下 **W** 键切换到锚点移动工具。在此工具下，可以：
   - 拖动坐标轴中心自由移动锚点。
@@ -59,6 +70,8 @@ sidebar_position: 20
 
 ### 旋转锚点
 
+![rotate_anchor](./img/anchorCurve/rotate_anchor.gif)
+
 - 选中锚点后，按下 **E** 键切换到锚点旋转工具。在此工具下，可以：
   - 拖动鼠标调整锚点角度。
   - 输入精确旋转角度。
@@ -67,6 +80,8 @@ sidebar_position: 20
 按 **E** 键可在全局与本地坐标系之间切换。
 
 ### 缩放锚点
+
+![scale_anchor](./img/anchorCurve/scale_anchor.gif)
 
 - 选中锚点后，按下 **R** 键切换到锚点缩放工具。在此工具下，可以：
   - 拖动坐标轴上的手柄，沿指定方向缩放。
@@ -77,16 +92,22 @@ sidebar_position: 20
 
 ### 添加锚点
 
+![add_anchor](./img/anchorCurve/add_anchor.gif)
+
 - 在锚点编辑模式下，按住 ⌘ 键后会显示锚点添加位置。点击鼠标左键即可添加锚点，拖动鼠标可同时移动新添加的锚点。
 - 如果需要在某条边的中心或垂线上添加锚点，提示图案会提供相应反馈。
 - 选中两端顶点后，按下数字键 1-9，可在线段上均匀添加指定数量的顶点。
 
 ### 删除锚点
 
+![delete_anchor](./img/anchorCurve/delete_anchor.gif)
+
 - 选中锚点后，按下 ⌫ 键即可删除。
 - 如果选中的是连续锚点，按 **X** 键可将其合并为单一顶点。
 
 ### 转换锚点类型
+
+![smooth_anchor](./img/anchorCurve/smooth_anchor.gif)
 
 - 按 **C** 键：将选中的锚点转换为光滑锚点。
 - 按 **V** 键：将选中的锚点转换为角点。
@@ -95,23 +116,33 @@ sidebar_position: 20
 
 ### 精确设置锚点位置
 
+![set_anchor_position](./img/anchorCurve/set_anchor_position.gif)
+
 在左侧锚点列表中，可以直接输入锚点的坐标信息，精确调整位置。也可点击并拖动多个输入框一次性调整多个锚点。
 
 ### 镜向曲线
+
+![mirror_curve](./img/anchorCurve/mirror_curve.gif)
 
 - 选中两个相邻锚点，按 **M** 键可实现镜像对称。
 - 按 **S** 键可实现旋转镜像。
 
 ### 挤压边
 
+![extrude_edge](./img/anchorCurve/extrude_edge.gif)
+
 - 选中相邻顶点，点击挤出边按钮或按 **T** 键，即可挤出边。
 - 按住 ⌥ 键后，拖动鼠标可挤压出圆弧。
 
 ### 开放/关闭曲线
 
+![open_close_curve](./img/anchorCurve/open_close_curve.gif)
+
 - 对于封闭曲线：选中连续的两个锚点，右键点击 “Open Curve” 菜单即可开放曲线。
 - 对于开放曲线：右键点击 “Close Curve” 菜单即可闭合曲线。
 
 ### 设置曲线起始点
+
+![set_curve_start](./img/anchorCurve/set_curve_start.gif)
 
 选中任意锚点，右键点击 “Set as starting point” 菜单，即可将其设置为曲线的起始点。
