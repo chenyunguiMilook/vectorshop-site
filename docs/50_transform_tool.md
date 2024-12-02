@@ -6,6 +6,8 @@ sidebar_position: 50
 
 ## Selection
 
+![selection](./img/transformTool/selection.gif)
+
 - Click on a layer object to select it. Click and drag on a blank area of the canvas to select multiple layers.
 - Hold **⇧ Shift** and click a layer:
   - If the layer is already selected, it will be deselected.
@@ -16,17 +18,23 @@ sidebar_position: 50
 
 ### Move
 
+![move](./img/transformTool/move.gif)
+
 - If no layer is selected, click and drag a layer to move it.
 - If a layer is selected, hover the mouse inside the object boundary. The cursor will change to a move icon. Click and drag to move the layer.
 - Hold **⌥ Option** while dragging to duplicate and move the layer. The cursor will change to indicate duplication.
 
 ### Rotate
 
+![rotate](./img/transformTool/rotate.gif)
+
 - Hover near the corners outside the object boundary. The cursor will change to a rotate icon. Click and drag to rotate the layer.
 - Hold **⌥ Option** to use the opposite corner as the rotation pivot.
 - Hold **⇧ Shift** to lock the rotation angle to multiples of 45 degrees.
 
 ### Scale
+
+![scale](./img/transformTool/scale.gif)
 
 - Hover over the corners of the object boundary. The cursor will change to a scale icon. Click and drag to scale proportionally.
   - Hold **⌥ Option** to scale from the object’s center.
@@ -37,9 +45,13 @@ sidebar_position: 50
 
 ### Skew
 
+![skew](./img/transformTool/skew.gif)
+
 - Hover over the edges of the object boundary (not at the center points). The cursor will change to a skew icon. Click and drag to skew the layer along that axis.
 
 ## Adjusting Guides
+
+![guideLine](./img/transformTool/guideLine.gif)
 
 - When guides are enabled, hover over a guide to adjust its position by clicking and dragging.
 - Drag a guide back to the ruler to remove it.

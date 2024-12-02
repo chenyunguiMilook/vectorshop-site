@@ -6,6 +6,8 @@ sidebar_position: 50
 
 ## 选择
 
+![selection](./img/transformTool/selection.gif)
+
 - 点击图层对象以选择图层；点击画布空白处并拖拽可框选多个图层。
 - 按住 **⇧ Shift** 键点击图层：如果图层已选中，则取消选择；如果图层未选中，则添加到选择中。
 - 按住 **⌘ Command** 键选择时，将忽略图层的层级关系。
@@ -14,17 +16,23 @@ sidebar_position: 50
 
 ### 移动
 
+![move](./img/transformTool/move.gif)
+
 - 未选中图层时，可直接点击并拖动图层。
 - 选中图层时，将鼠标移动到物体边界内，光标变为移动状态，按住并拖动可移动图层。
 - 按住 **⌥ Option** 键，光标变为复制状态，拖动图层可复制并移动。
 
 ### 旋转
 
+![rotate](./img/transformTool/rotate.gif)
+
 - 将鼠标移动到对象边界的四个角外侧，光标变为旋转状态，按住并拖动可旋转图层。
 - 按住 **⌥ Option** 键，以对角为旋转中心。
 - 按住 **⇧ Shift** 键，旋转角度将锁定为 45 度的整数倍。
 
 ### 缩放
+
+![scale](./img/transformTool/scale.gif)
 
 - 鼠标移动到对象边界的四个角上，光标变为缩放状态，按住并拖动以等比缩放。
   - 按住 **⌥ Option** 键，以对象中心为锚点进行缩放。
@@ -35,9 +43,13 @@ sidebar_position: 50
 
 ### 斜切
 
+![skew](./img/transformTool/skew.gif)
+
 - 鼠标移动到对象边界四边上（非中心区域），光标变为斜切状态，按住并拖动可沿该轴方向斜切图层。
 
 ## 调整参考线
+
+![guideLine](./img/transformTool/guideLine.gif)
 
 - 打开参考线后，将鼠标移至参考线上，按住并拖动可调整位置。
 - 拖动参考线到标尺上可删除参考线。
