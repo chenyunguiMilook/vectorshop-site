@@ -4,7 +4,7 @@ sidebar_position: 100
 
 # Privacy Policy
 
-Thank you for using **VectorShop** (hereinafter referred to as "the Software"). We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we handle any data related to you.
+Thank you for using **Vector Shop - Unique & Easy** (hereinafter referred to as "the Software"). We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we handle any data related to you.
 
 ---
 
