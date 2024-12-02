@@ -10,17 +10,23 @@ Shapes can be composed of multiple open or closed curves using different composi
 
 ## EvenOdd
 
+![evenOdd](./img/shapeComposition/evenOdd.gif)
+
 In the **EvenOdd** mode, curves are rendered based on the even-odd rule. The visibility of each curve is determined by its even or odd status.
 
 ---
 
 ## Winding
 
+![winding](./img/shapeComposition/winding.gif)
+
 In the **Winding** mode, you can adjust the winding direction of curves by clicking the button on the right side of the curve list. This allows you to achieve the desired rendering effect.
 
 ---
 
 ## Boolean
+
+![boolean](./img/shapeComposition/boolean.gif)
 
 In the **Boolean** mode, shapes are rendered by applying Boolean operations starting from the bottom-most curve and working upwards through the stack.
 
@@ -33,6 +39,8 @@ The following Boolean operations are supported:
 ---
 
 ## SFSymbol
+
+![sfsymbol](./img/shapeComposition/sfsymbol.gif)
 
 In the **SFSymbol** mode, shapes are rendered by applying the composition mode of each curve, starting from the bottom-most curve and proceeding upwards.
 

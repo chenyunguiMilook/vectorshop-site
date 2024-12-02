@@ -10,17 +10,23 @@ sidebar_position: 23
 
 ## EvenOdd（奇偶规则）
 
+![evenOdd](./img/shapeComposition/evenOdd.gif)
+
 在 **EvenOdd** 模式下，曲线会根据奇偶规则进行渲染。每一条曲线的奇偶性决定了其显示或隐藏的部分。
 
 ---
 
 ## Winding（非零缠绕规则）
 
+![winding](./img/shapeComposition/winding.gif)
+
 在 **Winding** 模式下，可以通过点击曲线列表中曲线右侧的按钮调整曲线的缠绕方向，从而改变渲染效果。
 
 ---
 
 ## Boolean（布尔运算）
+
+![boolean](./img/shapeComposition/boolean.gif)
 
 在 **Boolean** 模式下，形状会按照每条曲线的运算法则，从最底层曲线开始，与其上层曲线逐步进行布尔运算，最终获得渲染结果。
 
@@ -33,6 +39,8 @@ sidebar_position: 23
 ---
 
 ## SFSymbol
+
+![sfsymbol](./img/shapeComposition/sfsymbol.gif)
 
 在 **SFSymbol** 模式下，形状会根据每条曲线的合成模式，从最底层曲线开始，依次进行运算，最终合成渲染结果。
 
