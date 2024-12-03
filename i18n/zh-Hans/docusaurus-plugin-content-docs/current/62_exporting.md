@@ -47,10 +47,31 @@ sidebar_position: 62
 切换到模板导出模式后，画布中会渲染相应模板的参考线。调整参考线的大小和位置以适应图标，并选择预设背景样式后即可导出。  
 
 支持的模板包括：  
+
+![androidAppIcon](./img/exporting/androidAppIcon.png)
+
 - **[Android App Icon](https://developer.android.com/distribute/google-play/resources/icon-design-specifications?hl=zh-cn)**：支持选择背景预设。
+
+![iOSAppIcon](./img/exporting/iOSAppIcon.png)
+
 - **[iOS App Icon](https://developer.apple.com/design/human-interface-guidelines/app-icons)**：支持选择背景预设。
+
+![macDocIcon](./img/exporting/macDocIcon.png)
+
 - **[Mac Dock Icon](https://developer.apple.com/news/?id=5i6jlf4d)**：支持选择背景预设。
+
+![launcherIcon](./img/exporting/launcherIcon.png)
+
 - **[Launcher Icon](https://m2.material.io/design/iconography/product-icons.html#grid-and-keyline-shapes)**：支持选择背景预设。
+
+![adaptiveIcon](./img/exporting/adaptiveIcon.png)
+
 - **[Adaptive Icon](https://medium.com/google-design/designing-adaptive-icons-515af294c783)**：支持选择背景预设。
+
+![androidSystemIcon](./img/exporting/androidSystemIcon.png)
+
 - **[Android System Icon](https://m2.material.io/design/iconography/system-icons.html#design-principles)**  
+
+![fontIcon](./img/exporting/fontIcon.png)
+
 - **[Font Icon](https://fontawesome.com/v5/docs/web/use-kits/icon-design-guidelines)**  

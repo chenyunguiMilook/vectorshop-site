@@ -47,10 +47,31 @@ To export an image, you can directly click the **“Export”** button on the to
 Switching to template export mode will render the corresponding template guides on the canvas. Adjust the size and position of the guides to fit the icon and select a preset background style before exporting.  
 
 Supported templates include:  
+
+![androidAppIcon](./img/exporting/androidAppIcon.png)
+
 - **[Android App Icon](https://developer.android.com/distribute/google-play/resources/icon-design-specifications?hl=zh-cn)**: Supports background presets.
+
+![iOSAppIcon](./img/exporting/iOSAppIcon.png)
+
 - **[iOS App Icon](https://developer.apple.com/design/human-interface-guidelines/app-icons)**: Supports background presets.
+
+![macDocIcon](./img/exporting/macDocIcon.png)
+
 - **[Mac Dock Icon](https://developer.apple.com/news/?id=5i6jlf4d)**: Supports background presets.
+
+![launcherIcon](./img/exporting/launcherIcon.png)
+
 - **[Launcher Icon](https://m2.material.io/design/iconography/product-icons.html#grid-and-keyline-shapes)**: Supports background presets.
+
+![adaptiveIcon](./img/exporting/adaptiveIcon.png)
+
 - **[Adaptive Icon](https://medium.com/google-design/designing-adaptive-icons-515af294c783)**: Supports background presets.
+
+![androidSystemIcon](./img/exporting/androidSystemIcon.png)
+
 - **[Android System Icon](https://m2.material.io/design/iconography/system-icons.html#design-principles)**  
+
+![fontIcon](./img/exporting/fontIcon.png)
+
 - **[Font Icon](https://fontawesome.com/v5/docs/web/use-kits/icon-design-guidelines)**  
