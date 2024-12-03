@@ -4,7 +4,7 @@ sidebar_position: 10
 
 # VectorShop Intro
 
-VectorShop is a professional vector design tool built for designers, offering intuitive and powerful features that streamline the creation of stunning vector graphics and icons.
+VectorShop is a vector design tool dedicated to making it easy for everyone to create stunning vector graphics. With a rich collection of built-in format presets, it allows one-click export to meet the requirements of various platforms. Specifically optimized for SF Symbols, it significantly boosts design efficiency.
 
 ## Basic Concepts
 
