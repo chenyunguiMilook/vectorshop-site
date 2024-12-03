@@ -6,10 +6,14 @@ sidebar_position: 60
 
 ## 制作
 
+![shape_symbol_mode](./img/symbol/shape_symbol_mode.png)
+
 1. 选择形状图层，右键单击并从菜单中选择 **"Make SFSymbol"**，即可将选中图层转换为一个 SFSymbol。
 2. 双击形状图层进入形状编辑模式。在曲线列表右上角点击模式菜单，选择 **"SFSymbol"**，将当前形状图层转换为 SFSymbol 模式。
 
 ## 调整
+
+![curve_symbol_mode](./img/symbol/curve_symbol_mode.png)
 
 在曲线列表中，每条曲线右侧都有一个模式切换按钮，可用于更改曲线模式。支持以下四种模式：
 

@@ -6,10 +6,14 @@ sidebar_position: 60
 
 ## Creating
 
+![shape_symbol_mode](./img/symbol/shape_symbol_mode.png)
+
 1. Select a shape layer, right-click, and choose **"Make SFSymbol"** from the menu to convert the selected layer into an SFSymbol.
 2. Double-click the shape layer to enter shape editing mode. Click the mode menu in the top-right corner of the curve list and select **"SFSymbol"** to switch the current shape layer to SFSymbol mode.
 
 ## Adjustments
+
+![curve_symbol_mode](./img/symbol/curve_symbol_mode.png)
 
 In the curve list, each curve has a mode toggle button on its right side, which can be used to change the curve mode. The following modes are supported:
 
