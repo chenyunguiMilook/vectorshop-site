@@ -17,9 +17,9 @@ sidebar_position: 60
 
 In the curve list, each curve has a mode toggle button on its right side, which can be used to change the curve mode. The following modes are supported:
 
-1. **Fill Add**: Applicable to closed curves. This mode combines curves using Boolean "Add" operations when generating SFSymbols.
+1. **Fill Unite**: Applicable to closed curves. This mode combines curves using Boolean "Add" operations when generating SFSymbols.
 2. **Fill Subtract**: Applicable to closed curves. This mode combines curves using Boolean "Subtract" operations when generating SFSymbols.
-3. **Stroke Add**: This mode combines curves using Boolean "Add" operations, with the stroke thickness and style defined by the SFSymbol stroke properties.
+3. **Stroke Unite**: This mode combines curves using Boolean "Add" operations, with the stroke thickness and style defined by the SFSymbol stroke properties.
 4. **Stroke Subtract**: This mode combines curves using Boolean "Subtract" operations, with the stroke thickness and style defined by the SFSymbol stroke properties.
 
 ### Configuration
@@ -31,8 +31,8 @@ In the curve list, each curve has a mode toggle button on its right side, which 
 3. Drag the alignment baseline on the canvas to adjust the icon's size to match the reference SFSymbol.
 4. Drag the guide lines on the left and right sides of the icon on the canvas to determine the SFSymbol's width (this value is usually correct by default).
 5. Click the **"Ultralight"**, **"Regular"**, and **"Bold"** buttons at the top to adjust the properties for different weights to align them with the reference SFSymbol:
-   - For curves in **Fill Add** and **Fill Subtract** modes, scale the curves to fit the correct size.
-   - For curves in **Stroke Add** and **Stroke Subtract** modes, adjust the stroke scaling ratio in the Symbol variation properties to fit the correct stroke thickness.
+   - For curves in **Fill Unite** and **Fill Subtract** modes, scale the curves to fit the correct size.
+   - For curves in **Stroke Unite** and **Stroke Subtract** modes, adjust the stroke scaling ratio in the Symbol variation properties to fit the correct stroke thickness.
 
 ## Exporting
 
