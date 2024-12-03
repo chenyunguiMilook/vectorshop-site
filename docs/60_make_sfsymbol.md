@@ -20,6 +20,8 @@ In the curve list, each curve has a mode toggle button on its right side, which 
 
 ### Configuration
 
+![symbol](./img/symbol/symbol.png)
+
 1. In the SFSymbol configuration panel, click the toggle on the left to enable SFSymbol configuration adjustments.
 2. Click the icon to the right of the toggle to select a reference SFSymbol for comparison with the current symbol.
 3. Drag the alignment baseline on the canvas to adjust the icon's size to match the reference SFSymbol.

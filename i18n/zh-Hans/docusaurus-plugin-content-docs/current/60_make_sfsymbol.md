@@ -20,6 +20,8 @@ sidebar_position: 60
 
 ### 配置调节
 
+![symbol](./img/symbol/symbol.png)
+
 1. 在 SFSymbol 配置面板中，点击左侧开关以启用 SFSymbol 配置调节。
 2. 点击开关右侧的图标，可选择一个参考 SFSymbol，与当前图标进行对比。
 3. 在画布中拖动对齐基线，调整图标大小以接近参考 SFSymbol 的大小。
