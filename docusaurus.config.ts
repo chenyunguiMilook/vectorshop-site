@@ -98,7 +98,11 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/blog', 
+          label: 'Blog', 
+          position: 'left'
+        },
         {
           href: 'https://github.com/chenyunguiMilook/VectorShopIssue',
           label: 'GitHub',
@@ -145,6 +149,10 @@ const config: Config = {
             {
               label: 'Blog',
               to: '/blog',
+            },
+            {
+              label: 'Download', 
+              href: "https://apps.apple.com/us/app/vector-shop-unique-easy/id6723881388", 
             },
             {
               label: 'GitHub',

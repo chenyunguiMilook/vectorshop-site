@@ -38,5 +38,9 @@
   "copyright": {
     "message": "版权 © 2024 chenyungui. Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Download": {
+    "message": "下载",
+    "description": "The label of footer link with label=Download linking to https://apps.apple.com/us/app/vector-shop-unique-easy/id6723881388"
   }
 }
