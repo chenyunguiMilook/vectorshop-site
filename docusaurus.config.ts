@@ -104,6 +104,11 @@ const config: Config = {
           position: 'left'
         },
         {
+          label: 'Download',
+          href: 'https://apps.apple.com/us/app/vector-shop-unique-easy/id6723881388',
+          position: 'left'
+        },
+        {
           href: 'https://github.com/chenyunguiMilook/VectorShopIssue',
           label: 'GitHub',
           position: 'right',
