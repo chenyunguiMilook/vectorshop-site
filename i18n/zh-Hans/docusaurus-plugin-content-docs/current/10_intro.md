@@ -6,6 +6,8 @@ sidebar_position: 10
 
 # VectorShop介绍
 
+[![Download on the App Store](./img/Download_on_the_Mac_App_Store_Badge_CNSC_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/vector-shop-unique-easy/id6723881388?mt=12)
+
 VectorShop 是一款专注于矢量图标设计的工具，旨在让每个人都能轻松创作出精美的矢量作品。软件内置多种格式预设，支持一键导出满足各平台需求的文件，并针对 SF Symbols 进行了特别优化，大幅提升创作效率。
 
 ## 基础概念

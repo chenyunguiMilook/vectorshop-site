@@ -1,3 +1,8 @@
+
+![Download on the App Store](./docs/img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)
+
+[View this site](https://chenyunguimilook.github.io/vectorshop-site/)
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

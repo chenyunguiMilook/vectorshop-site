@@ -4,6 +4,8 @@ sidebar_position: 10
 
 # VectorShop Intro
 
+[![Download on the App Store](./img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/us/app/vector-shop-unique-easy/id6723881388)
+
 VectorShop is a vector design tool dedicated to making it easy for everyone to create stunning vector graphics. With a rich collection of built-in format presets, it allows one-click export to meet the requirements of various platforms. Specifically optimized for SF Symbols, it significantly boosts design efficiency.
 
 ## Basic Concepts
