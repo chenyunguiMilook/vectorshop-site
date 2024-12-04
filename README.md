@@ -1,5 +1,5 @@
 
-![Download on the App Store](./docs/img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)
+[![Download on the App Store](./docs/img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/us/app/vector-shop-unique-easy/id6723881388)
 
 [View this site](https://chenyunguimilook.github.io/vectorshop-site/)
 
